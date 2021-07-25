@@ -1,12 +1,16 @@
 {
   "name": "kirusa.konnect-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A CLI SMS sending program based on kirusa.konnect",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "EurikaOrmanel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EurikaOrmanel/kirusa-sms-cli.git"
+  },
+  "author": "Eurika Ormanel",
   "license": "ISC",
   "dependencies": {
     "csv-parser": "^3.0.0",
