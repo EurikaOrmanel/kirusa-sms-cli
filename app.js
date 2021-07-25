@@ -1,6 +1,10 @@
+#!/usr/bin/env node
+'use strict';
+
+
 const inquirer = require('inquirer');
 const { sendSMS } = require('./lib/sender');
-const { query_for_new_login_details, query_for_existing_data } = require('./lib/query')
+const { query_for_new_login_details, query_for_existing_data } = require('./lib/query');
 const { csvWriter } = require('./lib/csv-writer');
 inquirer.prompt([{
     type: 'confirm',

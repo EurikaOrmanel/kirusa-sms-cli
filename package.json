@@ -1,5 +1,5 @@
 {
-  "name": "kirusa.konnect-cli",
+  "name": "kirusa-bulky-sms-sender-cli",
   "version": "1.0.0",
   "description": "A CLI SMS sending program based on kirusa.konnect",
   "main": "app.js",
@@ -10,9 +10,31 @@
     "type": "git",
     "url": "git+https://github.com/EurikaOrmanel/kirusa-sms-cli.git"
   },
+  "keywords": [
+    "kirusa.konnect",
+    "cli",
+    "bulksms",
+    "sms"
+  ],
   "author": "Eurika Ormanel",
   "license": "ISC",
   "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "inquirer": "^8.1.2",
+    "unirest": "^0.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/EurikaOrmanel/kirusa-sms-cli/issues"
+  },
+  "homepage": "https://github.com/EurikaOrmanel/kirusa-sms-cli#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "kirusa": "/app.js"
+  },
+  "devDependencies": {
     "csv-parser": "^3.0.0",
     "csv-writer": "^1.6.0",
     "inquirer": "^8.1.2",
