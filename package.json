@@ -1,5 +1,5 @@
 {
-  "name": "kirusa-bulky-sms-sender-cli",
+  "name": "kirusa-sms-cli",
   "version": "1.0.0",
   "description": "A CLI SMS sending program based on kirusa.konnect",
   "main": "app.js",
