@@ -1,6 +1,6 @@
 {
   "name": "kirusa-sms-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI SMS sending program based on kirusa.konnect",
   "main": "app.js",
   "scripts": {
@@ -19,9 +19,10 @@
   "author": "Eurika Ormanel",
   "license": "ISC",
   "dependencies": {
+    "configstore": "^3.1.5",
     "csv-parser": "^3.0.0",
     "csv-writer": "^1.6.0",
-    "inquirer": "^8.1.2",
+    "kirusa-sms-cli": "^1.0.3",
     "unirest": "^0.6.0"
   },
   "bugs": {
@@ -37,7 +38,7 @@
   "devDependencies": {
     "csv-parser": "^3.0.0",
     "csv-writer": "^1.6.0",
-    "inquirer": "^8.1.2",
+    "inquirer": "^8.1.1",
     "unirest": "^0.6.0"
   }
 }
