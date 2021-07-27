@@ -16,6 +16,10 @@ Click [here](https://konnect.kirusa.com/login?a=signup) to sign up and get your 
 
 
 ## Usage
-`$ kirusa `  
+`$ kirusa `
 
+
+
+
+## Credit:
 This package was inspired by [@codekeyz](https://github.com/codekeyz)'s [nalo-sms-cli](https://www.npmjs.com/package/nalo-sms-cli) package.
